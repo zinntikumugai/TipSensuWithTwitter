@@ -112,18 +112,19 @@
                     <input type="number" class="form-control" v-model="amount" step="0.00000001">
                 </div>
                 <div class="pt-3">
-                    <a v-bind:href="urlBase + code + '%20@' + name + '%20' + amount" class="btn bg-twitter text-white d-block">
-                        <i class="fab fa-twitter fa-lg"></i> Open with Twitter</a>
                     <!-- <div class="form-group col-12 text-right">
                             参考：123.456 円
                         </div> -->
+                        <a v-bind:href="urlBase + code + '%20@' + name + '%20' + amount" class="btn bg-twitter text-white d-block">
+                        <i class="fab fa-twitter fa-lg"></i> Open with Twitter</a>
                 </div>
             </div>
             <div class="col-md-1 col-sm-12 col-lg-2 col-xl-3"></div>
         </div>
     </div>
     <div class="container text-center pt-5">
-        <h6>Copyright &copy; 2018 Shino</h6>
+        <h6><a href="https://github.com/ShinoharaTa/TipSensuWithTwitter">使い方、寄付リンクの設定方法(GitHub)</a></h6>
+        <h6>Copyright &copy; 2018 <a href="https://shinoharata.github.io/TipSensuWithTwitter/?name=TwitterAccount">Shino</a></h6>
     </div>
     <!-- Modal -->
     <div class="modal fade" id="moneyListModal" tabindex="-1" role="dialog" aria-labelledby="moneyListModalLabel" aria-hidden="true">
