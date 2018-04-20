@@ -1,0 +1,20 @@
+[class^="icon"] {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 15px;
+    margin-right: 10px;
+    fill: #fff;
+}
+
+.svg {
+    display: none;
+}
+
+.bg-sensu {
+    background-color: #c22047;
+}
+
+.bg-twitter {
+    background-color: #55acee;
+}
