@@ -104,6 +104,18 @@ var moneyList = new Vue({
                 "imgUrl": "https://cdn.discordapp.com/icons/417469579804147715/e86450f6c230e409c7c16d99ed537f03.webp"
             },
             {
+                "name": "DogeCoin",
+                "code": "DOGE",
+                "active": true,
+                "imgUrl": "https://raw.githubusercontent.com/dogecoin/dogecoin.com/gh-pages/imgs/dogecoin-300.png"
+            },
+            {
+                "name": "Phore",
+                "code": "PHR",
+                "active": true,
+                "imgUrl": "https://assets.coingecko.com/coins/images/1129/large/phore.png"
+            },
+            {
                 "name": "SHIELD",
                 "code": "XSH",
                 "active": true,
@@ -150,12 +162,6 @@ var moneyList = new Vue({
                 "code": "KOTO",
                 "active": false,
                 "imgUrl": "https://cdn.discordapp.com/icons/400107631810969609/5830c763cda4ab9eebf45cbf6f5da09b.webp"
-            },
-            {
-                "name": "DogeCoin",
-                "code": "DOGE",
-                "active": false,
-                "imgUrl": "https://raw.githubusercontent.com/dogecoin/dogecoin.com/gh-pages/imgs/dogecoin-300.png"
             },
             {
                 "name": "NANJCOIN",
